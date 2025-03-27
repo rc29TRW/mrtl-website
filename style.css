@@ -63,14 +63,16 @@ section {
 
 .header-with-bg {
   background-image: url('logo.png');
-  background-size: cover;              /* Fill the whole background */
+  background-size: contain;       /* Keep proportions */
   background-repeat: no-repeat;
   background-position: center center;
-  height: 300px;                       /* You can increase this for more space */
+  background-color: #0c0f1a;       /* fallback color */
+  height: 300px;                   /* adjust if needed */
   display: flex;
   justify-content: center;
-  align-items: flex-end;              /* Moves nav to bottom of header */
+  align-items: flex-end;
   padding-bottom: 20px;
 }
+
 
 
