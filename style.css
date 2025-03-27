@@ -63,12 +63,14 @@ section {
 
 .header-with-bg {
   background-image: url('logo.png');
-  background-size: contain;
+  background-size: cover;              /* Fill the whole background */
   background-repeat: no-repeat;
-  background-position: center;
-  height: 250px;
+  background-position: center center;
+  height: 300px;                       /* You can increase this for more space */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;              /* Moves nav to bottom of header */
+  padding-bottom: 20px;
 }
+
 
