@@ -60,3 +60,15 @@ section {
   max-width: 800px;
   margin: auto;
 }
+
+.header-with-bg {
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
