@@ -68,7 +68,7 @@ body.landing-page {
   background-image: url('intro-bg.jpg'); /* Your starry background */
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 25vh;
   color: white;
   display: flex;
   justify-content: center;
