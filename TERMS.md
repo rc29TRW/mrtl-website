@@ -1,0 +1,74 @@
+TERMS AND CONDITIONS FOR USE OF MRTL TRADING BOT
+
+Effective Date: March 27, 2025
+
+This document outlines the terms and conditions governing the use of the MRTL Trading Bot ("Software"). By accessing, downloading, or using the Software, you acknowledge that you have read, understood, and agreed to be bound by the following terms:
+
+1. GENERAL DISCLAIMER
+The MRTL Trading Bot is provided solely for educational and informational purposes. It is not intended to constitute financial or investment advice. Use of this Software involves risk, and you assume full responsibility for any actions taken based on its output.
+
+2. ELIGIBILITY AND LEGAL COMPLIANCE
+You agree to use this Software only where its use is legal under your local, regional, and national laws. If you are under the legal age of majority (typically 18 years old), you must obtain permission and oversight from a parent or legal guardian. By using the Software, you affirm:
+- That you are legally allowed to engage in algorithmic or automated trading in your jurisdiction;
+- That you will comply with all applicable laws and platform terms of service;
+- That you are solely responsible for ensuring your use of the Software does not breach any such regulations.
+
+3. USE WITH PROP FIRMS AND THIRD-PARTY BROKERS
+You must understand and abide by the terms and rules of any proprietary trading firm or brokerage service used in conjunction with the Software. The creators and distributors of the Software are not responsible for:
+- Account closures
+- Fund loss
+- Platform bans
+- Reset of performance metrics
+You accept full responsibility for any consequences incurred from the use of this Software with third-party services.
+
+4. TRADING AND AUTOMATION RISKS
+By using the Software, you accept and understand that:
+- Trading involves significant financial risk, including the total loss of capital;
+- Market conditions may invalidate trading strategies;
+- Automation may malfunction or perform in unexpected ways;
+- The Software does not guarantee profit or performance.
+You assume full liability for all outcomes resulting from the use of this Software.
+
+5. NO WARRANTY
+The Software is provided "as is" and "as available" with no warranties, express or implied. The developers and distributors disclaim all warranties, including but not limited to merchantability, fitness for a particular purpose, and non-infringement. No guarantees are provided regarding uptime, performance, or profitability.
+
+6. SECURITY OF API KEYS AND CREDENTIALS
+The Software may require connection to external services via API keys. These credentials:
+- Are managed solely by the user;
+- Are not transmitted to or stored by the developers;
+- Must be kept secure and private by the user.
+Any loss or breach resulting from poor handling of credentials is your responsibility.
+
+7. NON-FINANCIAL ADVICE
+The MRTL Trading Bot is not registered with any financial authority and does not offer financial advisory services. It is a technical tool. Any use for investment decision-making is done at your own discretion and risk.
+
+8. REDISTRIBUTION AND COMMERCIAL USE
+This Software is for personal use only unless a commercial license is explicitly granted. You may not resell, sublicense, share, or modify this Software for redistribution without prior written approval.
+
+9. REFUND POLICY AND SUPPORT
+Unless otherwise stated in writing, all purchases are final. There are no refunds. Support is provided on a best-effort basis without a guaranteed response time.
+
+10. INDEMNIFICATION
+You agree to indemnify and hold harmless the developers, affiliates, and partners from any claims, liabilities, losses, or damages, including legal costs, arising out of your use or misuse of the Software.
+
+11. MINOR USE AND PARENTAL RESPONSIBILITY
+Users under the age of 18 must use this Software only with the active supervision and consent of a parent or guardian. All accounts, purchases, and financial engagements must be handled through the guardian's credentials where required. The developers bear no liability for minors’ misuse.
+
+12. MODIFICATION OF TERMS
+These Terms and Conditions may be updated without notice. It is your responsibility to review them periodically. Continued use after changes constitutes acceptance of the updated terms.
+
+13. CONTACT INFORMATION
+For questions or support inquiries:
+Email: krreon123@gmail.com 
+
+SUMMARY:
+- Use only where legal in your location.
+- No investment advice is provided.
+- You are responsible for prop firm or broker compliance.
+- Secure your API keys.
+- Use is entirely at your own risk.
+- Parental consent is required for minors.
+
+If you do not agree to these terms, discontinue use of the MRTL Trading Bot immediately.
+
+© 2025 MRTL. All rights reserved.
