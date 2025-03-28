@@ -78,3 +78,77 @@ footer {
   margin: 10px auto;
 }
 
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  color: white;
+}
+
+.category {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  padding: 20px 30px;
+  min-width: 220px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+}
+
+.category h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.plan {
+  margin-bottom: 20px;
+}
+
+.plan .label {
+  color: #00bfff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+}
+
+.plan strong {
+  display: block;
+  font-size: 18px;
+  margin: 8px 0 4px;
+}
+
+.plan p {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+
+.how-to-purchase {
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-to-purchase h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.how-to-purchase ol {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.how-to-purchase li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+
