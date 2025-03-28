@@ -1,117 +1,96 @@
+/* style.css */
+
+/* Reset and base styles */
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom, #0c0f1d, #1a1e2d);
-  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background: linear-gradient(to bottom, #0a0f24, #141c3a);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
 }
 
-header {
+/* Stars overlay (you must include stars.png in your project) */
+body::before {
+  content: "";
+  background: url('stars.png') repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+main, header, footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0;
+  background-color: rgba(10, 15, 36, 0.7);
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #3ec3ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+/* Hero section */
+.hero {
   text-align: center;
-  padding: 2rem 1rem;
-  background-color: #101526;
+  padding: 60px 20px;
 }
 
-.logo {
-  width: 80px;
-  height: auto;
+.hero h1, .hero h2 {
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
-nav a {
-  text-decoration: none;
-  color: #66d9ff;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #ffffff;
-}
-
-.hero {
-  text-align: center;
-  padding: 4rem 2rem;
-}
-
+/* Button styling */
 .button {
-  display: inline-block;
-  margin-top: 2rem;
-  background: #00bfff;
+  background-color: #00aaff;
   color: #fff;
-  padding: 0.75rem 1.5rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
   text-decoration: none;
   font-size: 1rem;
-  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
 .button:hover {
-  background: #009acd;
+  background-color: #0077cc;
 }
 
-section {
-  padding: 2rem 3rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-body.landing-page {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-image: url('intro-bg.jpg'); /* Your starry background */
-  background-size: cover;
-  background-position: center;
-  height: 25vh;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Footer */
+footer {
   text-align: center;
+  padding: 20px;
+  background-color: rgba(10, 15, 36, 0.8);
+  font-size: 0.9rem;
+  color: #ccc;
 }
-
-.landing-container {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 50px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-}
-
-.logo {
-  width: 120px;
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-size: 3em;
-  margin: 0 0 10px 0;
-}
-
-p {
-  font-size: 1.2em;
-  margin-bottom: 30px;
-}
-
-.button {
-  background-color: #007bff;
-  padding: 12px 28px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #0056b3;
-}
-
-
-
-
