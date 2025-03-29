@@ -151,4 +151,13 @@ footer {
   line-height: 1.5;
 }
 
+.about-image {
+  width: 80%;
+  max-width: 800px;
+  display: block;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+
 
